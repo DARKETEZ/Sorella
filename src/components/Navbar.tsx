@@ -57,7 +57,7 @@ export default function Navbar() {
               <a onClick={closeMenu} href="/#contacto" className="rounded-2xl bg-slate-50 px-4 py-3.5 text-base font-black text-sorella-ink active:bg-slate-100">Contacto</a>
               <div className="grid grid-cols-2 gap-2 pt-1">
                 <a onClick={closeMenu} href="https://wa.me/50370000000" target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-sorella-red px-4 py-3 text-center text-sm font-black text-white">WhatsApp</a>
-                <a onClick={closeMenu} href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-slate-200 px-4 py-3 text-center text-sm font-black text-sorella-ink">Instagram</a>
+                <a onClick={closeMenu} href="https://www.instagram.com/sorella_eyewear/" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-slate-200 px-4 py-3 text-center text-sm font-black text-sorella-ink">Instagram</a>
               </div>
             </div>
           </motion.div>
