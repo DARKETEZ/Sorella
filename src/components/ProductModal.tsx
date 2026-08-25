@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'react'
 import type { Product } from '../types'
 
 const WHATSAPP_NUMBER = '50370000000'
-const INSTAGRAM_URL = 'https://instagram.com/'
+const INSTAGRAM_URL = 'https://www.instagram.com/sorella_eyewear/'
 
 type Props = { product: Product | null; onClose: () => void }
 
