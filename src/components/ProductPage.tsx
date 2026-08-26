@@ -7,8 +7,8 @@ import { productIdFromParam } from '../lib/productPaths'
 import { trackEvent } from '../lib/analytics'
 import type { Product } from '../types'
 
-const WHATSAPP_NUMBER = '50370000000'
-const INSTAGRAM_URL = 'https://instagram.com/'
+const WHATSAPP_NUMBER = '50375209639'
+const INSTAGRAM_URL = 'https://www.instagram.com/sorella_eyewear/'
 
 export default function ProductPage() {
   const { productSlug } = useParams()
