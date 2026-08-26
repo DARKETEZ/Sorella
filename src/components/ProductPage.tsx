@@ -100,7 +100,7 @@ export default function ProductPage() {
   }
 
   const message = product.inStock
-    ? `Hola Sorella 👋 Me interesa el modelo ${product.name}. ¿Me pueden dar más información sobre disponibilidad y colores? ${window.location.href}`
+    ? `Hola Sorella 👋 Me interesa el modelo ${product.name}. ¿Me pueden dar más información sobre disponibilidad? ${window.location.href}`
     : `Hola Sorella 👋 Me interesa el modelo ${product.name}, pero veo que está agotado. ¿Me pueden avisar cuando vuelva a estar disponible? ${window.location.href}`
   const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
 
